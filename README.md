@@ -1,6 +1,22 @@
 # BuySellStock
 
+Buy and sell stock to maximise profit, for ex
+{
+"Date": "12/31/21",
+"Open": 10,
+"High": 15,
+"Low":  7,
+"Close": 8,
+"Volume": 64062262
+}
+if profit high - open > open - low, it is long trading
+if profit high - open < open - low, it is short trading
 
+For below are apis where in-:
+1. V1 only single day trading is required maximixing profit using either short or long trading for a single date
+2. V2 only single day trading is required maximixing profit using either short or long trading for a date range but cumulative it has to be either long or short trading.
+3. V1 only single day trading is required maximixing profit using either short or long trading for a date range but this allows intra trading meaning each day can be either long or short.
+Running below apis curls will help understand the proper ask.
 ## Guidelines to getting started
 
 ### Run create.sql for schema.
