@@ -3,21 +3,21 @@
 
 ## Guidelines to getting started
 
-###Run create.sql for schema.
-###Set up the data with 4th curl first.
+### Run create.sql for schema.
+### Set up the data with 4th curl first.
 
-####CURLs
+#### CURLs
 
-####1
+#### 1
 curl --location --request GET 'http://127.0.0.1:8082/api/v1/12-03-2021/'
 
-####2
+#### 2
 curl --location --request GET 'http://127.0.0.1:8082/api/v2/12-03-2021/12-03-2021/'
 
-####3
+#### 3
 curl --location --request GET 'http://127.0.0.1:8082/api/v3/12-03-2021/12-03-2021/'
 
-####4
+#### 4
 create data using below curl
 curl --location --request POST 'http://127.0.0.1:8082/stock/audit/' \
 --header 'Content-Type: application/json' \
